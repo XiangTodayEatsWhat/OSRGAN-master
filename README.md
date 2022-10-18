@@ -73,7 +73,7 @@ To evaluate OSRGAN on dSprites:
 cd OSRGAN-dSprites
 python test.py --model_type OBE --ckpt_load <ckpt_name>
 ```
-Taking the [pre-trained model](https://drive.google.com/drive/folders/17GbsSJApws8GgVpUN2J8gMfpM5CUyfrV) as an example, the following output can be obtained:
+Taking the pre-trained model (Download at [Google Drive](https://drive.google.com/drive/folders/17GbsSJApws8GgVpUN2J8gMfpM5CUyfrV)) as an example, the following output can be obtained:
 ```
 factorVAE_metric:0.956, SAP_metric:0.6667119252548017, MIG_metric:0.5072938550840046 
 ```
@@ -83,8 +83,27 @@ To evaluate OSRGAN on CelebA:
 cd OSRGAN-CelebA
 python test.py --model_type OBE --ckpt_load <ckpt_name>
 ```
+Taking the pre-trained model (Download at [Google Drive](https://drive.google.com/drive/folders/17GbsSJApws8GgVpUN2J8gMfpM5CUyfrV)) as an example, the images for VP metric and the following output can be obtained:
+```
+fid metric:36.95814926176368 
+```
+For calculating the VP score, you can refer to [here](https://github.com/zhuxinqimac/VP-metric-pytorch) and use the folder under the vp path as input. The specific structure is:
+```
+└── OSRGAN-CelebA
+    └── outputs
+        └── vp
+            └── OSRGAN-CelebA...
+                └── labels.npy
+                └── *.jpg
+            └── OSRGAN-CelebA...
+```
 
-Visualization results can be checked on the visdom server http://localhost:8097/.
+### Visualization
+
+Visualization results can be checked on the visdom server http://localhost:8097/. More visualizations of the figures in the paper are done by seaborn, and we provide  [our code snippets](https://drive.google.com/drive/folders/17GbsSJApws8GgVpUN2J8gMfpM5CUyfrV) for reference. You could also do it yourself by installing seaborn:
+```shell
+pip install seaborn
+```
 
 ## Results
 ### dSprites
