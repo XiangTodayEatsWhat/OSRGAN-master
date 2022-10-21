@@ -10,7 +10,7 @@ parser.add_argument('--img_size', default=128, type=int, help='image size')
 parser.add_argument('--z_dim', default=120, type=int, help='dimension of the representation z')
 parser.add_argument("--code_dim", type=int, default=15, help="dimension of the code c")
 parser.add_argument("--n_classes", type=int, default=7, help="num for visual")
-parser.add_argument("--seed", type=int, default=2, help="random seed")
+parser.add_argument("--seed", type=int, default=1, help="random seed")
 
 parser.add_argument('--cuda', default=True, type=str2bool, help='enable cuda')
 parser.add_argument('--max_iter', default=1e6, type=float, help='maximum training iteration')

@@ -370,5 +370,4 @@ class Solver(object):
             for img in x:
                 imageio.imwrite(os.path.join(self.vp_dir, 'pair_{:06d}.jpg'.format(num)), img.astype('uint8'))
                 num += 1
-            print(sample_type)
         np.save(os.path.join(self.vp_dir, 'labels.npy'), label)    

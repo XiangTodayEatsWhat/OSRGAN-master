@@ -85,7 +85,7 @@ python test.py --model_type OBE --ckpt_load <ckpt_name>
 ```
 Taking the pre-trained model (Download at [Google Drive](https://drive.google.com/drive/folders/17GbsSJApws8GgVpUN2J8gMfpM5CUyfrV)) as an example, the images for VP metric and the following output can be obtained:
 ```
-fid metric:36.95814926176368 
+fid metric:37.03743089820307 
 ```
 For calculating the VP score, you can refer to [here](https://github.com/zhuxinqimac/VP-metric-pytorch) and use the folder under the vp path as input. The specific structure is:
 ```

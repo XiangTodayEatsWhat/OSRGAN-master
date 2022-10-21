@@ -251,7 +251,7 @@ class Solver(object):
         eval_std_inference = self.inference_from(metric_data_eval_std)
         eval_std = np.std(eval_std_inference, axis=0, keepdims=True)
 
-        # batchsize 128 iteration 500
+        # batchsize 100 iteration 500
         L = 100
         M = 500
         train_data = np.zeros((eval_std.shape[1], 5))
