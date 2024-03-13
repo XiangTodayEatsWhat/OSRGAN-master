@@ -5,8 +5,9 @@ Adversarial Networks](https://arxiv.org/abs/2110.00788v1)". -->
 This repository is an official implementation of 
 
 ### Orthogonal Subspace Representation Generative Adversarial Networks
-Hongxiang Jiang, Xiaoyan Luo, Jihao Yin, Huazhu Fu, Fuxiang Wang\
-Transactions on Neural Networks and Learning Systems (TNNLS) 2024\
+Hongxiang Jiang, Xiaoyan Luo, Jihao Yin, Huazhu Fu, Fuxiang Wang
+
+Transactions on Neural Networks and Learning Systems (TNNLS) 2024
 
 
 
