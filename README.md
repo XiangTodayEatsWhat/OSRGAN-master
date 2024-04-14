@@ -15,7 +15,7 @@ Transactions on Neural Networks and Learning Systems (TNNLS) 2024
 ## Installation
 Install CUDA 10.1 and Python 3.8.0 firstly, and clone the repository locally:
 ```shell
-git clone https://github.com/XiangTodayEatsWhat/Inference-InfoGAN.git
+git clone https://github.com/XiangTodayEatsWhat/OSRGAN-master.git
 ```
 Then, install PyTorch and torchvision:
 ```shell
