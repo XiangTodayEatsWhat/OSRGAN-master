@@ -4,7 +4,7 @@
 Adversarial Networks](https://arxiv.org/abs/2110.00788v1)". -->
 This repository is an official implementation of 
 
-### Orthogonal Subspace Representation Generative Adversarial Networks
+### [Orthogonal Subspace Representation Generative Adversarial Networks](https://ieeexplore.ieee.org/abstract/document/10478780)
 Hongxiang Jiang, Xiaoyan Luo, Jihao Yin, Huazhu Fu, Fuxiang Wang
 
 Transactions on Neural Networks and Learning Systems (TNNLS) 2024
@@ -133,4 +133,12 @@ We referred to some evaluation code of [InfoGAN-CR](https://github.com/fjxmlzn/I
 We referred to some visualization code of [FactorVAE](https://github.com/1Konny/FactorVAE).
 
 ## Citation
-
+```
+@article{10478780,
+  author={Jiang, Hongxiang and Luo, Xiaoyan and Yin, Jihao and Fu, Huazhu and Wang, Fuxiang},
+  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  title={Orthogonal Subspace Representation for Generative Adversarial Networks}, 
+  year={2024},
+  pages={1-15}
+}
+```
